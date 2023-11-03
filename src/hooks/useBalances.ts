@@ -37,6 +37,8 @@ export function useBalances() {
         }
     }, []);
 
+    
+
     useEffect(() => {
         fetchTokenBalance();
     }, [fetchTokenBalance]);
